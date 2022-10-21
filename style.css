@@ -1,0 +1,311 @@
+.imggg {
+    display: flex;
+    height: 400px;
+    margin-left: 3px;
+    width: 1000px;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+}
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    max-height: 50%;
+}
+
+img {
+    display: none;
+
+    
+}
+
+.imgb {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.ChangeImg {
+    margin-top: 0px;
+    width: 400px;
+    height: 100px;
+    margin-left: 380px;
+    width: 234px;
+    /* height: 80px; */
+    font-size: 37px;
+    background: none;
+    color: #ffff;
+    border: none;
+    font-family: Inter;
+    text-shadow: 4px 3px 7px #000;
+}
+
+
+ body {
+    background-image: url(./img/1228617.jpg);    
+ }
+
+ .uptext h1{
+    margin-top: 21px;
+    height: 34px;
+    margin-left: 255px;
+    max-width: 2000px;
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    width: 2000px;
+ }
+
+ /* ------------------------------------------ 
+Responsive Grid Media Queries - 1280, 1024, 768, 
+480 1280-1024 - desktop (default grid) 1024-768 - 
+tablet landscape 768-480 - tablet 480-less - 
+phone landscape & smaller 
+--------------------------------------------*/  
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .imggg {
+       
+        display: flex;
+        height: 235px;
+        margin-left: 45px;
+        width: 600px;
+        margin-top: 0px;
+    
+            }
+            
+            body{
+                font-family: 'Inter', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                max-height: 50%;
+            }
+            
+            img {
+                display: none;
+            
+                
+            }
+            
+            .imgb {
+                display: block;
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+            .ChangeImg {
+                margin-top: 3px;
+                width: 400px;
+                height: 100px;
+                margin-left: 157px;
+                width: 320px;
+                height: 38px;
+                font-size: 23px;
+                background: none;
+                color: #ffff;
+                border: none;
+                font-family: Inter;
+                text-shadow: 4px 3px 7px #000;
+            }
+            
+             .uptext h1{
+                margin-top: 25px;
+                height: 34px;
+                margin-left: 155px;
+                max-width: 2000px;
+                font-size: 25px;
+                color: #fff;
+                text-shadow: 1px 1px 1px #000;
+                width: 2000px;
+            
+    
+            }
+    }
+    
+     @media all and (min-width: 768px) and (max-width: 1024px) { 
+        .imggg {
+            
+    display: flex;
+    height: 205px;
+    margin-left: 45px;
+    width: 520px;
+    margin-top: 0px;
+
+        }
+        
+        body{
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            max-height: 50%;
+        }
+        
+        img {
+            display: none;
+        
+            
+        }
+        
+        .imgb {
+            display: block;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+        .ChangeImg {
+            margin-top: 3px;
+            width: 400px;
+            height: 100px;
+            margin-left: 128px;
+            width: 320px;
+            height: 38px;
+            font-size: 20px;
+            background: none;
+            color: #ffff;
+            border: none;
+            font-family: Inter;
+            text-shadow: 4px 3px 7px #000;
+        }
+        
+         .uptext h1{
+            margin-top: 25px;
+            height: 34px;
+            margin-left: 155px;
+            max-width: 2000px;
+            font-size: 20px;
+            color: #fff;
+            text-shadow: 1px 1px 1px #000;
+            width: 2000px;
+
+        }
+        }
+     @media all and (min-width: 480px) and (max-width: 768px) { 
+        .imggg {
+            display: flex;
+            height: 178px;
+            margin-left: 40px;
+            width: 450px;
+            margin-top: 0px;
+        }
+        
+        body{
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            max-height: 50%;
+        }
+        
+        img {
+            display: none;
+        
+            
+        }
+        
+        .imgb {
+            display: block;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+        .ChangeImg {
+            margin-top: 3px;
+            width: 400px;
+            height: 100px;
+            margin-left: 90px;
+            width: 320px;
+            height: 38px;
+            font-size: 20px;
+            background: none;
+            color: #ffff;
+            border: none;
+            font-family: Inter;
+            text-shadow: 4px 3px 7px #000;
+        }
+        
+         .uptext h1{
+            margin-top: 25px;
+            height: 34px;
+            margin-left: 110px;
+            max-width: 2000px;
+            font-size: 20px;
+            color: #fff;
+            text-shadow: 1px 1px 1px #000;
+            width: 2000px;
+
+        }
+        }
+
+     @media all and (max-width: 480px) {
+        .imggg {
+            display: flex;
+            height: 155px;
+            margin-left: 40px;
+            width: 390px;
+            margin-top: 0px;
+            
+        }
+        
+        body{
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            max-height: 50%;
+        }
+        
+        img {
+            display: none;
+        
+            
+        }
+        
+        .imgb {
+            display: block;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+        .ChangeImg {
+            margin-top: 3px;
+            width: 400px;
+            height: 100px;
+            margin-left: 65px;
+            width: 320px;
+            height: 38px;
+            font-size: 20px;
+            background: none;
+            color: #ffff;
+            border: none;
+            font-family: Inter;
+            text-shadow: 4px 3px 7px #000;
+        }
+        
+         .uptext h1{
+            margin-top: 25px;
+            height: 34px;
+            margin-left: 80px;
+            max-width: 2000px;
+            font-size: 20px;
+            color: #fff;
+            text-shadow: 1px 1px 1px #000;
+            width: 2000px;
+        }
+    }
