@@ -1,14 +1,20 @@
 .imggg {
     display: flex;
-    height: 500px;
-    margin-left: 45px;
-    width: 1500px;
+    height: 400px;
+    margin-left: 3px;
+    width: 1000px;
+    justify-content: space-between;
+    margin-top: 15px;
     
 }
 *, *::after, *::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 body{
     font-family: 'Inter', sans-serif;
@@ -35,9 +41,9 @@ img {
     margin-top: 0px;
     width: 400px;
     height: 100px;
-    margin-left: 700px;
+    margin-left: 380px;
     width: 234px;
-    height: 80px;
+    /* height: 80px; */
     font-size: 37px;
     background: none;
     color: #ffff;
@@ -48,97 +54,20 @@ img {
 
 
  body {
-    background-image: url(./img/1228617.jpg);
-    
-    background-color: #000;
-
-   
-    
+    background-image: url(./img/1228617.jpg);    
  }
 
  .uptext h1{
     margin-top: 21px;
     height: 34px;
-    margin-left: 600px;
+    margin-left: 255px;
     max-width: 2000px;
-    font-size: 30px;
+    font-size: 35px;
     color: #fff;
     text-shadow: 1px 1px 1px #000;
     width: 2000px;
-    
  }
 
- @media all and (min-width: 768px) and (max-width: 1024px) { 
-    .imggg {
-        display: flex;
-        height: 238px;
-        margin-left: 34px;
-        width: 600px;
-        
-    }
-    *, *::after, *::before {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    body{
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 17px;
-        max-height: 50%;
-    }
-    
-    img {
-        display: none;
-    
-        
-    }
-    
-    .imgb {
-        display: block;
-        object-fit: cover;
-        width: 100%;
-        height: 100%;
-    }
-    .ChangeImg {
-        margin-top: 2px;
-        width: 400px;
-        height: 100px;
-        margin-left: 250px;
-        width: 140px;
-        height: 38px;
-        font-size: 24px;
-        background: none;
-        color: #ffff;
-        border: none;
-        font-family: Inter;
-        text-shadow: 4px 3px 7px #000;
-    }
-    
-    
-     body {
-        background-image: url(./img/1228617.jpg);
-        
-        background-color: #000;
-
-       
-        
-     }
-    
-     .uptext h1{
-        margin-top: 21px;
-        height: 34px;
-        margin-left: 103px;
-        max-width: 2000px;
-        font-size: 30px;
-        color: #fff;
-        text-shadow: 1px 1px 1px #000;
-        width: 2000px;
-        
-     }
-    }
  /* ------------------------------------------ 
 Responsive Grid Media Queries - 1280, 1024, 768, 
 480 1280-1024 - desktop (default grid) 1024-768 - 
@@ -148,16 +77,13 @@ phone landscape & smaller
 @media all and (min-width: 1024px) and (max-width: 1280px) {
     .imggg {
         display: flex;
-        height: 238px;
-        margin-left: 45px;
-        width: 750px;
+        height: 610px;
+        margin-left: 100px;
+        width: 1550px;
+        margin-top: 25px;
         
     }
-    *, *::after, *::before {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+   
     body{
         font-family: 'Inter', sans-serif;
         font-style: normal;
@@ -179,40 +105,35 @@ phone landscape & smaller
         width: 100%;
         height: 100%;
     }
+    .buttons{
+        margin-top: 20px;
+    }
     .ChangeImg {
-        margin-top: 2px;
+       
         width: 400px;
         height: 100px;
-        margin-left: 332px;
-        width: 140px;
+        margin-left: 667px;
+        width: 351px;
         height: 38px;
-        font-size: 24px;
+        font-size: 55px;
         background: none;
         color: #ffff;
         border: none;
         font-family: Inter;
         text-shadow: 4px 3px 7px #000;
+        margin-top: 20px;
     }
     
-    
-     body {
-        background-image: url(./img/1228617.jpg);
-        
-        background-color: #000;
-
-       
-        
-     }
-    
      .uptext h1{
-        margin-top: 21px;
+        margin-top: 60px;
         height: 34px;
-        margin-left: 200px;
+        margin-left: 470px;
         max-width: 2000px;
-        font-size: 30px;
+        font-size: 55px;
         color: #fff;
-        text-shadow: 1px 1px 1px #000;
+        /* text-shadow: 1px 1px 1px #000; */
         width: 2000px;
+        text-shadow: 4px 3px 7px #000;
         
      }
     }
@@ -220,16 +141,13 @@ phone landscape & smaller
      @media all and (min-width: 768px) and (max-width: 1024px) { 
         .imggg {
             display: flex;
-            height: 238px;
-            margin-left: 34px;
-            width: 600px;
+            height: 520px;
+            margin-left: 80px;
+            width: 1185px;
+            margin-top: 25px;
             
         }
-        *, *::after, *::before {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+       
         body{
             font-family: 'Inter', sans-serif;
             font-style: normal;
@@ -251,56 +169,49 @@ phone landscape & smaller
             width: 100%;
             height: 100%;
         }
+        .buttons{
+            margin-top: 20px;
+        }
         .ChangeImg {
-            margin-top: 2px;
+           
             width: 400px;
             height: 100px;
-            margin-left: 250px;
-            width: 140px;
+            margin-left: 667px;
+            width: 351px;
             height: 38px;
-            font-size: 24px;
+            font-size: 55px;
             background: none;
             color: #ffff;
             border: none;
             font-family: Inter;
             text-shadow: 4px 3px 7px #000;
+            margin-top: 20px;
         }
-        
-        
-         body {
-            background-image: url(./img/1228617.jpg);
-            
-            background-color: #000;
-
-           
-            
-         }
+       
         
          .uptext h1{
-            margin-top: 21px;
+            margin-top: 60px;
             height: 34px;
-            margin-left: 103px;
+            margin-left: 470px;
             max-width: 2000px;
-            font-size: 30px;
+            font-size: 55px;
             color: #fff;
-            text-shadow: 1px 1px 1px #000;
+            /* text-shadow: 1px 1px 1px #000; */
             width: 2000px;
+            text-shadow: 4px 3px 7px #000;
             
          }
         }
      @media all and (min-width: 480px) and (max-width: 768px) { 
         .imggg {
             display: flex;
-            height: 177px;
-            margin-left: 23px;
-            width: 443px;
+            height: 471px;
+            margin-left: 80px;
+            width: 1185px;
+            margin-top: 25px;
             
         }
-        *, *::after, *::before {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+       
         body{
             font-family: 'Inter', sans-serif;
             font-style: normal;
@@ -323,13 +234,13 @@ phone landscape & smaller
             height: 100%;
         }
         .ChangeImg {
-            margin-top: 2px;
+            margin-top: 15px;
             width: 400px;
             height: 100px;
-            margin-left: 176px;
-            width: 140px;
+            margin-left: 545px;
+            width: 320px;
             height: 38px;
-            font-size: 24px;
+            font-size: 48px;
             background: none;
             color: #ffff;
             border: none;
@@ -337,42 +248,28 @@ phone landscape & smaller
             text-shadow: 4px 3px 7px #000;
         }
         
-        
-         body {
-            background-image: url(./img/1228617.jpg);
-            
-            background-color: #000;
-
-           
-            
-         }
-        
          .uptext h1{
-            margin-top: 21px;
+            margin-top: 60px;
             height: 34px;
-            margin-left: 89px;
+            margin-left: 345px;
             max-width: 2000px;
-            font-size: 22px;
+            font-size: 50px;
             color: #fff;
-            text-shadow: 1px 1px 1px #000;
+            /* text-shadow: 1px 1px 1px #000; */
             width: 2000px;
-             
-            
+            text-shadow: 4px 3px 7px #000;    
          }
         }
+
      @media all and (max-width: 480px) {
         .imggg {
             display: flex;
-            height: 130px;
-            margin-left: 20px;
-            width: 340px;
+            height: 452px;
+            margin-left: 74px;
+            width: 1140px;
             
         }
-        *, *::after, *::before {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        
         body{
             font-family: 'Inter', sans-serif;
             font-style: normal;
@@ -395,13 +292,13 @@ phone landscape & smaller
             height: 100%;
         }
         .ChangeImg {
-            margin-top: 2px;
+            margin-top: 15px;
             width: 400px;
             height: 100px;
-            margin-left: 118px;
-            width: 140px;
+            margin-left: 485px;
+            width: 320px;
             height: 38px;
-            font-size: 20px;
+            font-size: 48px;
             background: none;
             color: #ffff;
             border: none;
@@ -409,24 +306,14 @@ phone landscape & smaller
             text-shadow: 4px 3px 7px #000;
         }
         
-        
-         body {
-            background-image: url(./img/1228617.jpg);
-            
-            background-color: #000;
-
-           
-            
-         }
-        
          .uptext h1{
-            margin-top: 21px;
+            margin-top: 38px;
             height: 34px;
-            margin-left: 42px;
+            margin-left: 290px;
             max-width: 2000px;
-            font-size: 20px;
+            font-size: 50px;
             color: #fff;
             text-shadow: 1px 1px 1px #000;
             width: 2000px;
         }
-              }
+    }
